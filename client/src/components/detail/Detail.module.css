@@ -1,0 +1,122 @@
+.color1 { color: #cea040 }
+.color2 { color: #dec68f }
+.color3 { color: #573d21 }
+.color4 { color: #609e98 }
+.color5 { color: #accbd3 }
+
+.organicer {
+  background-color: #dec68f;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 50px;
+  background-image: url("./img/detail.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: fit-content;
+}
+
+.container {
+  text-decoration: none;
+  border: 3px solid #cea14099;
+  border-radius: 20px;
+  padding: 40px;
+  margin-top: 30px;
+  width: 600px;
+  height: max-content;
+  background-color: rgba(255, 255, 255, 0.61);
+  box-shadow: 10px 5px 5px black;
+}
+
+.title {
+  display: block;
+  width: 40%;
+  margin: 0 auto;
+  color: #609e98;
+  font-family: monospace;
+  font-size: 30px;
+  margin-bottom: 15px;
+  text-shadow: 7px 3px 3px rgba(162, 157, 157, 0.625);
+}
+
+.recipeName {
+  color: #573d21;
+  font-family: monospace;
+  font-size: 25px;
+  text-align: center;
+  text-shadow: 7px 3px 3px rgba(162, 157, 157, 0.625);
+}
+
+.subTitles {
+  font-family: monospace;
+  font-size: 23px;
+  color: #609e98;
+  font-style: bold;
+  margin-right: 2000px;
+  top: 0;
+  bottom: 0;
+  text-shadow: 7px 3px 3px rgba(192, 239, 213, 0.957);
+}
+
+.paragraph {
+  font-family: monospace;
+  font-size: 15px;
+  text-align: justify;
+}
+
+.image {
+  border-radius: 25px;
+  position: relative;
+  padding: 15px;
+  max-width: 100%;
+  height: auto;
+}
+
+.number {
+  font-family: monospace;
+  font-size: 25px;
+  text-align: justify;
+}
+
+.closeButtonContainer {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  margin-bottom: 60px;
+}
+
+.closeButton {
+  font-family: monospace;
+  font-size: 20px;
+  background-color: #00000028;
+  border-radius: 10px;
+  margin-right: 10px;
+  border: none;
+  color: #355842;
+  cursor: pointer;
+  text-shadow: 7px 3px 3px rgba(162, 157, 157, 0.625);
+}
+
+.deleteButton {
+  font-family: monospace;
+  font-size: 20px;
+  background-color: #00000028;
+  border-radius: 10px;
+  margin-right: 10px;
+  border: none;
+  color: #a60000;
+  cursor: pointer;
+  text-shadow: 7px 3px 3px rgba(162, 157, 157, 0.625);
+}
+
+.updateButton {
+  font-family: monospace;
+  font-size: 20px;
+  background-color: #00000028;
+  border-radius: 10px;
+  margin-right: 10px;
+  border: none;
+  color: #7d5529;
+  cursor: pointer;
+  text-shadow: 7px 3px 3px rgba(162, 157, 157, 0.625);
+}

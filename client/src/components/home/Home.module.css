@@ -1,0 +1,32 @@
+.color1 { color: #cea040 }
+.color2 { color: #dec68f }
+.color3 { color: #573d21 }
+.color4 { color: #609e98 }
+.color5 { color: #accbd3 }
+
+.title {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #573d21;
+  background-color: #dec68f5f;
+  font-size: 70px;
+  font-family: monospace;
+  text-shadow: 5px 2px 2px rgb(23, 23, 23);
+}
+
+.container {
+  background-color: #dec68f;
+  background-image: url("./img/home.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0px;
+}

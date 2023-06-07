@@ -1,0 +1,48 @@
+.color1 { color: #cea040 }
+.color2 { color: #dec68f }
+.color3 { color: #573d21 }
+.color4 { color: #609e98 }
+.color5 { color: #accbd3 }
+
+.card {
+  text-decoration: none;
+  text-align: center;
+  border: 2px solid #cea040;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  height: 400px;
+  width: 320px;
+  background-color: #dec68fe2;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.701);
+}
+
+.image {
+  border-radius: 15px;
+  padding: 5px;
+  height: 210px;
+  width: 310px;
+}
+
+.recipeTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #573d21;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #00000075;
+}
+.diets {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 17px;
+  color: #573d21;
+  margin-left: 10px;
+  text-align: center;
+  font-family: monospace;
+}
+
+.link {
+  text-decoration: none;
+}

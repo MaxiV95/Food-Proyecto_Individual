@@ -1,0 +1,62 @@
+.color1 { color: #cea040 }
+.color2 { color: #dec68f }
+.color3 { color: #573d21 }
+.color4 { color: #609e98 }
+.color5 { color: #accbd3 }
+
+.container {
+  margin-top: 10px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.input {
+  border-radius: 10px;
+  color: #cea040;
+  border: 3px solid #cea040;
+  font-size: 20px;
+  font-family: monospace;
+  margin-bottom: 0;
+  cursor: pointer;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.button {
+  border-radius: 10px;
+  color: white;
+  border: 2px solid #cea040;
+  font-style: bold;
+  font-family: monospace;
+  font-size: 20px;
+  background-color: #cea040;
+  cursor: pointer;
+  margin-left: 10px;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.491);
+}
+
+.filters {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.list {
+  border-radius: 8px;
+  border: solid 3px #cea040;
+  background-color: #cea040;
+  color: white;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 17px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  text-align: center;
+  height: 26px;
+  width: 250px;
+  cursor: pointer;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.505);
+}

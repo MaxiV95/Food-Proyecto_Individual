@@ -1,0 +1,26 @@
+.color1 { color: #cea040 }
+.color2 { color: #dec68f }
+.color3 { color: #573d21 }
+.color4 { color: #609e98 }
+.color5 { color: #accbd3 }
+
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-radius: 8px;
+  border: solid #dec68f;
+  background-color: #dec68f;
+}
+
+.button {
+  border: none;
+  color: white;
+  font-style: bold;
+  font-family: monospace;
+  font-size: 35px;
+  border-radius: 8px;
+  background-color: #cea040;
+  cursor: pointer;
+  box-shadow: 7px 3px 3px rgba(0, 0, 0, 0.495);
+}

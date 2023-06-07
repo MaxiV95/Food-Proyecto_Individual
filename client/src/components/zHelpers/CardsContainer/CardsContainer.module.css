@@ -1,0 +1,22 @@
+.color1 { color: #cea040 }
+.color2 { color: #dec68f }
+.color3 { color: #573d21 }
+.color4 { color: #609e98 }
+.color5 { color: #accbd3 }
+
+.container {
+  background-image: url("./img/home.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #dec68f97;
+  gap: 1.4em;
+  justify-content: space-around;
+  width: 100%;
+  height: fit-content;
+  text-decoration: none;
+}

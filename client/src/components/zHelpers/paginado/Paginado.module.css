@@ -1,0 +1,30 @@
+.color1 { color: #cea040 }
+.color2 { color: #dec68f }
+.color3 { color: #573d21 }
+.color4 { color: #609e98 }
+.color5 { color: #accbd3 }
+
+.contenedor {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #cea140af;
+}
+
+.button {
+  background-color: #dec68f;
+  border-radius: 3px;
+  color: #573d21;
+  font-style: bold;
+  border: 1px solid #cea040;
+  font-family: monospace;
+  font-size: 20px;
+  padding: 10px;
+  cursor: pointer;
+  text-shadow: 1px 1px 1px black;
+}
+
+.active {
+  background-color: #609e98;
+  color: #cea040;
+}

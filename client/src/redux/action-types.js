@@ -1,0 +1,7 @@
+export const GET_ALL_DIETS = "GET_ALL_DIETS";
+export const GET_ALL_RECIPES = "GET_ALL_RECIPES";
+export const RESET_ALL_RECIPES = "RESET_ALL_RECIPES";
+export const GET_RECIPES_NAME = "GET_RECIPES_NAME";
+export const UPDATE_SELECT = "UPDATE_SELECT";
+export const UPDATE_STATE = "UPDATE_STATE";
+export const SET_PAGE = "SET_PAGE";
