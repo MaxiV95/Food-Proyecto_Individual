@@ -10,8 +10,7 @@ import store from "./redux/store";
 
 require('dotenv').config();
 
-const URL_SERVER = process.env.URL_SERVER;
-axios.defaults.baseURL = URL_SERVER;
+axios.defaults.baseURL = process.env.URL_SERVER;
 
 ReactDOM.render(
   <Provider store={store}> {/* Estado global */}
