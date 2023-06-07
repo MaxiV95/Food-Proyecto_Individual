@@ -1,16 +1,16 @@
-require('dotenv').config();
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
-import App from "./App";
-import axios from "axios";
-import store from "../src/redux/store";
-import { Provider } from "react-redux";
 import { BrowserRouter } from "react-router-dom";
+import { Provider } from "react-redux";
+import axios from "axios";
 import reportWebVitals from "./reportWebVitals";
+import App from "./App";
+import "./index.css";
+import store from "./redux/store";
+
+require('dotenv').config();
 
 const URL_SERVER = process.env.URL_SERVER || "http://localhost:3001";
-
 axios.defaults.baseURL = URL_SERVER;
 
 ReactDOM.render(
@@ -27,4 +27,4 @@ ReactDOM.render(
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+reportWebVitals(console.log);
