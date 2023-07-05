@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.82387bbc.chunk.css",
+    "main.js": "/static/js/main.1f6f02dc.chunk.js",
+    "main.js.map": "/static/js/main.1f6f02dc.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.73b9e0cc.js",
+    "runtime-main.js.map": "/static/js/runtime-main.73b9e0cc.js.map",
+    "static/js/2.9f5fd973.chunk.js": "/static/js/2.9f5fd973.chunk.js",
+    "static/js/2.9f5fd973.chunk.js.map": "/static/js/2.9f5fd973.chunk.js.map",
+    "static/js/3.eb5434fb.chunk.js": "/static/js/3.eb5434fb.chunk.js",
+    "static/js/3.eb5434fb.chunk.js.map": "/static/js/3.eb5434fb.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.82387bbc.chunk.css.map": "/static/css/main.82387bbc.chunk.css.map",
+    "static/js/2.9f5fd973.chunk.js.LICENSE.txt": "/static/js/2.9f5fd973.chunk.js.LICENSE.txt",
+    "static/media/MaxiV95.5493fa20.jpeg": "/static/media/MaxiV95.5493fa20.jpeg",
+    "static/media/Detail.module.css": "/static/media/detail.e38a263e.jpg",
+    "static/media/Form.module.css": "/static/media/form.e38a263e.jpg",
+    "static/media/CardsContainer.module.css": "/static/media/home.82cb3f04.jpg",
+    "static/media/Landing.module.css": "/static/media/landing.33878ce6.jpeg",
+    "static/media/NotFound.module.css": "/static/media/notFound.68b1e2db.jpg",
+    "static/media/Upload.module.css": "/static/media/upload.e38a263e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.73b9e0cc.js",
+    "static/js/2.9f5fd973.chunk.js",
+    "static/css/main.82387bbc.chunk.css",
+    "static/js/main.1f6f02dc.chunk.js"
+  ]
+}
